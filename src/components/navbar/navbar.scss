@@ -1,0 +1,25 @@
+.Navbar {
+  &__btn-wrapper {
+    display: flex;
+
+    .btn {
+      width: 250px;
+      height: 40px;
+      background: linear-gradient(122.33deg, #53E0FF 30.62%, #1E94E9 100%);
+      box-shadow: 5px 5px 20px rgba(0, 224, 255, 0.15);
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  &__delimiter-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    .delimiter {
+      height: 2px;
+      background-color: #1E94E9;
+    }
+
+  }
+}

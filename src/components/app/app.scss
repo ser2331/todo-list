@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(196,216,255,1) 0%, rgba(149,210,255,1) 35%);
+  padding: 20px;
+}

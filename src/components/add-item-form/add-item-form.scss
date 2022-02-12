@@ -1,0 +1,34 @@
+.AddItemForm {
+  &__form-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 760px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 0.5px solid #1E94E9;
+    border-radius: 40px 25px 25px 40px;
+
+    .add-input {
+      width: 80%;
+      height: 60px;
+      border-radius: 25px;
+      font-size: 24px;
+      border: none;
+    }
+
+    .delete {
+      position: absolute;
+      width: 60px;
+      height: 75px;
+      border-radius: 0 25px 25px 0;
+      background-color: #81f244;
+      border: none;
+      cursor: pointer;
+      right: 3px;
+    }
+  }
+
+}
